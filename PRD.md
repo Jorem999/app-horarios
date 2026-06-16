@@ -2,9 +2,9 @@
 
 ## Problem Statement
 
-D'la Nonna es una panadería artesanal en Ambato, Ecuador. El control de horarios de los empleados se maneja actualmente de forma manual o inexistente. Jorge, el dueño, no tiene visibilidad de quién entra, quién sale, y si se cumplen los horarios asignados a cada empleado. Esto genera problemas de operación, costos imprevistos y falta de información para la toma de decisiones.
+D'la Nonna es una panadería artesanal en Ambato, Ecuador. El control de horarios de los empleados se maneja actualmente de forma manual o inexistente. Jorge, el dueño, no tiene visibilidad de quién entra, quién sale, y si se cumplen los horarios asignados a cada empleado.
 
-Jorge es ex-programador (creó Nexus ERP en VFP, 100K líneas) y quiere construir un sistema moderno, modular y evolutivo. En lugar de migrar el ERP completo, la estrategia es construir apps modulares empezando por Horarios, la necesidad más urgente de la panadería.
+Jorge es ex-programador (creó Nexus ERP en VFP, 100K líneas) y quiere construir un sistema moderno, modular y evolutivo. En lugar de migrar el ERP completo, la estrategia es construir apps modulares empezando por Horarios.
 
 ## Solution
 
@@ -79,6 +79,6 @@ Arquitectura: frontend web standalone (HTML/CSS/JS) con capacidad de operar offl
 ## Further Notes
 
 - **Inspiración:** Las lecciones del Nexus ERP (VFP) informan las decisiones — evitar diseño sobreingenierizado, priorizar lo que realmente se usa en el día a día de la panadería.
-- **Contexto de Jorge:** Panadero artesanal, masón, ex-programador. El horario de trabajo es 13:00-20:00 en la panadería, con disponibilidad de programación en las mañanas (después de las 06:30, después de medicación).
+- **Contexto de Jorge:** Panadero artesanal, ex-programador. El horario de trabajo es 13:00-20:00 en la panadería, con disponibilidad de programación en las mañanas (después de las 05:30 hasta 07:30).
 - **Filosofía:** Construir para hoy, diseñar para mañana. El módulo de horarios debe estar operativo rápido (semanas, no meses) pero con suficiente calidad como para que los módulos siguientes se construyan sobre la misma base.
 - **Repositorio:** https://github.com/Jorem999/app-horarios
